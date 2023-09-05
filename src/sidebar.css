@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    position: absolute;
+    top: 17%;
+    left: -100px;
+    width: 100px;
+    height: 250vh;
+    background-color: #B2E4EF;
+    transition: left 0.3s;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar .toggle-button {
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /*padding-top: 50px;*/
+}
+
+.sidebar .menu a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-left: 30px;
+}
+
+.sidebar .menu a:hover {
+    background-color: #B2E4EF;
+}

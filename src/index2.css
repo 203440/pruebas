@@ -1,0 +1,146 @@
+.fondo{
+  background-color: #CECECE;
+}
+/* Asegurarse de que no haya márgenes ni rellenos en el body y en el h1 */
+h1{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  background-color: #D3DEF5;
+  /*position: relative;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la vista */
+}
+  
+.cuadro {
+  width: 350px;  /* Puedes ajustar según tus necesidades */
+  height: 450px; /* Puedes ajustar según tus necesidades */
+  background-color: #00263B; /* Solo para visualización */
+  border-radius: 6%;  
+}
+
+.txte{
+  color: #FFFFFF;
+}
+
+.wel{
+  display: flex;
+  justify-content: center;  /* Centrado horizontal */
+  align-items: center;      /* Centrado vertical */
+  margin-top: 20px;
+}
+
+.miInput {
+  width: 210px;  /* Ajusta según lo que necesites */
+  height: 40px;  /* Ajusta según lo que necesites */
+  padding: 5px 10px; /* Espacio interior alrededor del texto. Puede ayudar a que el texto no esté muy pegado al borde */
+  border: 2px solid gray; /* Define un borde sólido con 2px de ancho y color gris */
+  border-radius: 20px;     /* Esquinas ligeramente redondeadas */
+  font-size: 16px;        /* Tamaño de letra */
+  outline: none;          /* Elimina el contorno que algunos navegadores agregan al hacer foco */
+}
+
+.miInput:focus { 
+  border-color: rgb(118, 216, 192); /* Cambia el color del borde a azul */
+}
+.divlogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;      /* Centrado vertical */
+  height: 300px; /* Puedes ajustar según tus necesidades */
+}
+.contenido {
+  width: 230px;  /* Opcional, solo para demostración */
+  height: 200px; /* Opcional, solo para demostración */
+}
+
+.miBoton {
+  background-color: #8BF589;  /* Color de fondo del botón */
+  padding: 10px 20px;         /* Espaciado interno (arriba-abajo y izquierda-derecha) */
+  font-size: 16px;            /* Tamaño del texto */
+  border-radius: 28px;         /* Esquinas redondeadas */
+  cursor: pointer;            /* Cambia el cursor a una mano cuando pasas el mouse */
+  transition: background-color 0.3s ease; /* Efecto de transición al cambiar el color de fondo */
+}
+
+.miBoton:hover {
+  background-color: #3ce778;
+}
+
+.miBoton:focus {
+  outline: none;
+}
+
+.centrar{
+  padding: 20px;
+  width: 100%;
+  /*height: 90px;*/
+  margin-left: 75px;
+}
+
+/* Estilos para la tabla */
+table {
+  width: 50%;
+  border-collapse: collapse; /* Esto asegura que no hay espacios entre las celdas y los bordes de la tabla */
+}
+
+th, td {
+  border: 3px solid black;  /* Borde para cada celda */
+  padding: 10px;  /* Espaciado interno para cada celda */
+}
+
+th {
+  background-color: #f2f2f2; /* Color de fondo para las celdas del encabezado */
+}
+
+.wel2{
+  height: 320px;
+  background-color: #E3E3E3;
+  width: 500px;
+  border: 2px solid black;
+}
+.user {
+  display: block;
+  margin-bottom: 10px; /* Espacio adicional debajo de cada elemento, si lo deseas */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Esto centrará los elementos hijos horizontalmente */
+  width: 100%;
+  margin-top: 90px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espacio entre cada par de label e input */
+}
+
+.input-group label {
+  margin-right: 10px; /* Espacio entre el label y el input */
+}
+
+.tablas {
+  width: 350px;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+.img1 {
+  margin-left: 20%;
+}
+
+.tablasg2 {
+  width: 500px;
+  margin-left: 15%;
+}
